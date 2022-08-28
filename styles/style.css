@@ -1,0 +1,63 @@
+.conteiner{
+    height: 430px;
+    left: 0;
+    top: 0;
+}
+.images{
+    position: relative;
+    display: flex;
+}
+
+.img-bio{
+    position: relative;
+    z-index: 1;
+    left: 300px;
+}
+
+.img-people{
+    position: relative;
+    left: 300px;
+    z-index: 4;
+    clear: left;
+}
+
+.img-yin{
+    position: relative;
+    z-index: 2;
+    left: 4px;
+    top: 235px;
+}
+    
+.img-smoking{
+    position: absolute;
+    top: 100px;
+    left: 375px;
+    z-index: 6;
+}
+
+.conteiner img:hover {
+    z-index: 10;
+}
+
+@media (max-width: 630px) {
+    .conteiner {
+        left: -300px;
+    }
+    .img-bio{
+        left: 0;
+    }
+    
+    .img-people{
+       left: 25px;
+        
+    }
+    
+    .img-yin{
+        left: -275px;
+    }
+        
+    .img-smoking{
+        left: 90px;
+    }
+
+}
